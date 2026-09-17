@@ -8,7 +8,7 @@
 
         public int Servings { get; set; }
 
-        public List<string> Instructions { get; set; } = [];
+        public List<RecipeStep> Steps { get; set; } = [];
 
         public List<RecipeLine> RecipeLines { get; set; } = [];
     }
