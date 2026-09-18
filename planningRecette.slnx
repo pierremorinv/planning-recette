@@ -3,6 +3,7 @@
     <File Path=".editorconfig" />
   </Folder>
   <Project Path="planningRecette.Domain/planningRecette.Domain.csproj" Id="3d44ba0b-ec5e-45af-ae77-cbd01c548b64" />
+  <Project Path="planningRecette.Infrastructure/planningRecette.Infrastructure.csproj" Id="a05c8357-b909-416f-bb17-a27d6dac8a04" />
   <Project Path="planningRecette.Tests/planningRecette.Domain.Tests.csproj" Id="04a5d55d-cf35-4aea-beaa-af5d2214799e" />
-  <Project Path="planningRecette/planningRecette.csproj" />
+  <Project Path="planningRecette.Api/planningRecette.Api.csproj" />
 </Solution>
