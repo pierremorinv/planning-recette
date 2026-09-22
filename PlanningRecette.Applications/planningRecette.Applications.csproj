@@ -8,14 +8,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\planningRecette.Domain\planningRecette.Domain.csproj" />
+    <ProjectReference Include="..\planningRecette.Infrastructure\planningRecette.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.12" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Repository\" />
+    <Folder Include="Service\" />
   </ItemGroup>
 
 </Project>

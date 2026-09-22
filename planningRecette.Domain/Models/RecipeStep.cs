@@ -1,9 +1,9 @@
-﻿namespace planningRecette.Domain.Entities
-{
-    public class RecipeStep
-    {
-        public int Id { get; set; }
+﻿using planningRecette.Domain.Base;
 
+namespace planningRecette.Domain.Entities
+{
+    public class RecipeStep : BaseEntity
+    {
         public int RecipeId { get; set; }
 
         public int Order { get; set; }

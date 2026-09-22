@@ -1,11 +1,10 @@
-﻿using planningRecette.Domain.Enums;
+﻿using planningRecette.Domain.Base;
+using planningRecette.Domain.Enums;
 
 namespace planningRecette.Domain.Entities
 {
-    public class Ingredient
+    public class Ingredient : BaseEntity
     {
-        public int Id { get; set; }
-
         public string Name { get; set; } = "";
 
         public UnitOfMeasureEnum Unit { get; set; }

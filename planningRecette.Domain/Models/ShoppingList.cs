@@ -1,9 +1,9 @@
-﻿namespace planningRecette.Domain.Entities
-{
-    public class ShoppingList
-    {
-        public int Id { get; set; }
+﻿using planningRecette.Domain.Base;
 
+namespace planningRecette.Domain.Entities
+{
+    public class ShoppingList : BaseEntity
+    {
         public DateTime GeneratedAt { get; set; }
 
         public DateOnly PeriodStart { get; set; }

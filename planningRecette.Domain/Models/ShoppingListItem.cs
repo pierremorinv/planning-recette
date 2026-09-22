@@ -1,12 +1,10 @@
-﻿using planningRecette.Domain.Enums;
+﻿using planningRecette.Domain.Base;
+using planningRecette.Domain.Enums;
 
 namespace planningRecette.Domain.Entities
-
 {
-    public class ShoppingListItem
+    public class ShoppingListItem : BaseEntity
     {
-        public int Id { get; set; }
-
         public int ShoppingListId { get; set; }
         public int IngredientId { get; set; }
         public decimal TotalQuantity { get; set; }

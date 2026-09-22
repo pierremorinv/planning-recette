@@ -1,11 +1,10 @@
-﻿using planningRecette.Domain.Enums;
+﻿using planningRecette.Domain.Base;
+using planningRecette.Domain.Enums;
 
 namespace planningRecette.Domain.Entities
 {
-    public class Meal
+    public class Meal : BaseEntity
     {
-        public int Id { get; set; }
-
         public DateOnly Date { get; set; }
 
         public List<Recipe> Recipes { get; set; } = [];
