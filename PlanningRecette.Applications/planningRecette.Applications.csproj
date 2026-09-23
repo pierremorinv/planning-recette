@@ -8,11 +8,14 @@
 
   <ItemGroup>
     <ProjectReference Include="..\planningRecette.Domain\planningRecette.Domain.csproj" />
-    <ProjectReference Include="..\planningRecette.Infrastructure\planningRecette.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Service\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.12" />
   </ItemGroup>
 
 </Project>
